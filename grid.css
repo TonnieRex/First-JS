@@ -1,0 +1,31 @@
+.container{
+    width: 100%;
+    height: fit-content;
+    border: 4px solid green;
+}
+.di{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.box-1{
+    width: 500px;
+    height: 200%;
+    background-color: aqua;
+    
+}
+.box-2{
+    width: 350px;
+    height: 200px;
+    background-color: blueviolet;
+}
+.box-3{
+    width: 350px;
+    height: 200px;
+    background-color: brown;
+}
+.box-4{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-left: 500px;
+}

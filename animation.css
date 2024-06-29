@@ -1,0 +1,34 @@
+.container{
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin: auto;
+}
+.slider-container{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+.slider{
+    display: flex;
+    width: 1600px;
+    animation: slide 5s infinite;
+    overflow: hidden;
+}
+.slider img{
+    width: 400px;
+    height: 400px;
+}
+@keyframes slide {
+    25%{
+        margin-left: -400px;
+    }
+
+    50%{
+        margin-left: -800px;
+    }
+
+    100%{
+        margin-left: -1200px;
+    }
+}
